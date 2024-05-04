@@ -1,10 +1,12 @@
 import React from 'react'
-import {About} from '../../components'
+import {About,Education, Footer} from '../../components'
 
 function Main(){
     return(
         <div>
             <About/>
+            <Education/>
+            <Footer/>
         </div>
     )
 }
