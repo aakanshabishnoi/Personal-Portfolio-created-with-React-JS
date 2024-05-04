@@ -2,13 +2,13 @@ import { redThemeboy, redThemegirl, contactsRed, eduRed, expRed } from './images
 
 export const redThemeLight = {
     type: 'light',
-    primary: '#f03939',
+    primary: '#de0d19',
     primary400: '#dd4d4d',
     primary600: '#ea2424',
     primary80: '#f03939cc',
     primary50: '#f0393980',
     primary30: '#f039394d',
-    secondary: '#eaeaea',
+    secondary: '#f9f6ee',
     secondary70: '#eaeaeab3',
     secondary50: '#eaeaea80',
     tertiary: '#212121',

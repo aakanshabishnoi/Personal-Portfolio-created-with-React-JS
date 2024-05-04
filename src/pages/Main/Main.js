@@ -1,9 +1,11 @@
 import React from 'react'
-import {About,Education, Footer} from '../../components'
+import {Navbar, About,Education, Footer, Landing} from '../../components'
 
 function Main(){
     return(
         <div>
+            <Navbar/>
+            <Landing/>
             <About/>
             <Education/>
             <Footer/>

@@ -1,3 +1,5 @@
 export {default as About} from './About/About'
 export {default as Education} from './Education/Education'
 export {default as Footer} from './Footer/Footer'
+export{default as Navbar} from './Navbar/Navbar'
+export{default as Landing} from './Landing/Landing'
