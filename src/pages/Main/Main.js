@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, About,Education, Footer, Landing} from '../../components'
+import {Navbar, About,Education, Footer, Landing , Contacts, Skills, Experience} from '../../components'
 
 function Main(){
     return(
@@ -8,6 +8,9 @@ function Main(){
             <Landing/>
             <About/>
             <Education/>
+            <Skills/>
+            <Experience/>
+            <Contacts/>
             <Footer/>
         </div>
     )

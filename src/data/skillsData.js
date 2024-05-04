@@ -1,4 +1,4 @@
-export const skillData = [
+export const skillsData = [
     'HTML',
     'CSS',
     'Javascript',

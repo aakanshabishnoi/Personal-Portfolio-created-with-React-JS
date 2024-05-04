@@ -1,48 +1,47 @@
-
-.education {
-    min-height: 70vh;
+.experience{
+    min-height: 60vh;
 }
 
-.education-body {
+.experience-body {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
-    color: hsla(117, 56%, 49%, 0.702);
 }
 
-.education-description {
+.experience-description {
     width: 100%;
     flex: 0.65;
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: center;
-    margin-left: 7%;
+    margin-right: 2rem;
 }
 
-.education-description > h1{
+.experience-description > h1 {
     font-size: 3.5rem;
     font-family: var(--primaryFont);
     margin-bottom: 2rem;
 }
 
-.education-card {
+.experience-card {
     display: flex;
-    /* align-items:flex-start; */
-    /* justify-content: flex-start; */
-    position: relative;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: flex-start;
     width: 90%;
     height: 100px;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
     transition: background-color 200ms ease-in-out;
+    position: relative;
 }
 
-.educard-img {
+.expcard-img {
     border-radius: 50%;
     width: 55px;
     height: 55px;
@@ -52,11 +51,12 @@
     flex-shrink: 0;
 }
 
-.educard-img > img {
-    width: 40px;
+.expcard-img > img {
+    width: 36px;
+    pointer-events: none;
 }
 
-.education-details{
+.experience-details {
     margin-left: 0.6rem;
     position: absolute;
     top:0;
@@ -64,36 +64,41 @@
     line-height: 0.5;
 }
 
-.education-details > h6 {
+.experience-details > h6 {
     font-family: var(--primaryFont);
     font-size: 0.85rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
 
-.education-details > h4 {
+.experience-details > h4 {
     font-family: var(--primaryFont);
     font-size: 1.225rem;
     font-weight: 600;
 }
 
-.education-details > h5 {
+.experience-details > h5 {
     font-family: var(--primaryFont);
     font-size: 1.15rem;
     font-weight: 600;
 }
 
-.education-image {
+.experience-image {
     box-sizing: border-box;
     padding: 1rem;
     flex: 0.35;
+    margin-left: 7%;
     margin-top: 1rem;
     pointer-events: none;
 }
 
-.education-image > img {
+.experience-image > img {
     width: 100%;
+    pointer-events: none;
 }
+
+
+
 
 
 
@@ -103,20 +108,20 @@
 
 
 @media screen and (max-width: 992px) {
-    .education {
+    .experience {
         min-height: 100%;
     }
-    .education-image {
+    .experience-image {
         display: none;
     }
-    .education-description {
+    .experience-description {
         flex: 1;
         margin: auto;
     }    
-    .education-description > h1{
+    .experience-description > h1{
         font-size: 3.2rem;
     }
-    .education-card {
+    .experience-card {
         width: 100%;
         padding: 1.5rem;
         margin-bottom: 1.5rem;
@@ -124,46 +129,46 @@
 }
 
 @media screen and (max-width: 800px) {
-    .education-description > h1{
+    .experience-description > h1{
         font-size: 3rem;
         margin-bottom: 2rem;
         align-self: center;
     }
-    .education-description {
+    .experience-description {
         padding: 1rem;
     }
-    .education-card {
+    .experience-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
         height: 130px;
     }
-    .educard-img {
+    .expcard-img {
         border-radius: 50%;
         width: 45px;
         height: 45px;
     }
     
-    .educard-img > img {
+    .expcard-img > img {
         width: 30px;
     }
-    .education-details > h6 {
+    .experience-details > h6 {
         font-size: 0.85rem;
         margin-bottom: 0.45rem;
     }
     
-    .education-details > h4 {
+    .experience-details > h4 {
         font-size: 1.125rem;
         line-height: 126%;
     }
     
-    .education-details > h5 {
+    .experience-details > h5 {
         font-size: 1.05rem;
         line-height: 126%;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .education-description > h1{
+    .experience-description > h1{
         font-size: 2.5rem;
     }
 }
