@@ -134,16 +134,16 @@ function Navbar() {
         <div className='navbar'>
             <div className='navbar--container'>
                 <h1 style={{ color: theme.secondary }}>
-                    {shortname(headerData.name)}
+                    {(headerData.name)}
                 </h1>
 
-                <IoMenuSharp
+                {/* <IoMenuSharp
                     className={classes.navMenu}
                     onClick={handleDrawerOpen}
                     aria-label='Menu'
-                />
+                /> */}
             </div>
-            <Drawer
+            {/* <Drawer
                 variant='temporary'
                 onClose={(event, reason) => {
                     if (reason !== 'backdropClick') {
@@ -158,7 +158,7 @@ function Navbar() {
                 className='drawer'
                 disableScrollLock={true}
             >
-                <div className='div-closebtn'>
+                { <div className='div-closebtn'>
                     <CloseIcon
                         onClick={handleDrawerClose}
                         onKeyDown={(e) => {
@@ -247,8 +247,8 @@ function Navbar() {
                             </NavLink>
                         </Fade>
                     </div>
-                </div>
-            </Drawer>
+                </div> }
+            </Drawer> */}
         </div>
     );
 }

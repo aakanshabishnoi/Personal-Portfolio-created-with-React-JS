@@ -1,8 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route} from 'react-router-dom';
 
 // import { ThemeContext } from './contexts/ThemeContext'
 import { Main} from './pages'
+import { BackToTop } from './components'
+import ScrollToTop from './utils/ScrollToTop'
 
 import './App.css';
 
@@ -12,9 +14,13 @@ function App() {
   // console.log("%cDEVELOPER PORTFOLIO", `color:${theme.primary}; font-size:50px`);
   return (
     <div className="App">
-      <Router>
-      <Main/>
+     <Router>
+        <ScrollToTop/>
+          <Route path="/" exact component={Main} />
+
+          <Redirect to="/" />
       </Router>
+      <BackToTop/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 export const aboutData = {
-    title : "who I am",
-    description1 : "I am Aakansha Sigar. I am a software engineer based in Pune, India",
-    description2 : "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    title : "Who I am",
+    description1 : "I am Aakansha Sigar. I am a software engineer based in Pune, India. I hold a Master of Science degree in Mathematics from the Indian Institute of Technology, Kharagpur.",
+    description2 : "As a Software Engineer in the Siemens-NX Assemblies team, I contribute to the development and optimization of critical APIs for Siemens NX CAD software. Through my experience in this role, I have improved the performance, reliability, and usability of the software, and resolved complex issues for the clients.",
     img:2
 }
