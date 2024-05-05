@@ -1,40 +1,33 @@
-export const achievementData = [
+import cpp from '../assets/svg/certifications/cplusplus.svg'
+import golang from '../assets/png/golang.PNG'
+import algo from '../assets/jpg/algo.jpg'
 
-    // Do not remove any fields.
-    // Leave it blank instead as shown below.
+export const AchievementData= [
     {
         id: 1,
-        title: 'Specialization Certificate in Algorithms',
-        details: '',
-        date: '',
-        field:'',
-        image:''
+        AchievementName: 'Employee Management',
+        AchievementDesc: 'This project aims to build an employee management system that consolidates all information of a company',
+        tags: ['React', 'CSS', 'Material Ui'],
+        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        image: algo
     },
-    {  
+    {
         id: 2,
-        title: 'Design Patterns in Modern C++',
-        details: '',
-        date: '',
-        field:'',
-        image:''
-
+        AchievementName: 'Railway Tracking',
+        AchievementDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
+        tags: ['Django', 'Tailwind CSS'],
+        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        image: cpp
     },
-    {  
+    {
         id: 3,
-        title: 'Linux OS(Illinois Tech',
-        details: '',
-        date: '',
-        field:'',
-        image:''
-
-    },
-    {  
-        id: 4,
-        title: 'Golang',
-        details: '',
-        date: '',
-        field:'',
-        image:''
-
+        AchievementName: 'Weather App',
+        AchievementDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
+        tags: ['Django', 'CSS', 'Material Ui'],
+        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        image: golang
     }
 ]

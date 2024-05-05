@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, About,Education, Footer, Landing , Contacts, Skills, Experience} from '../../components'
+import {Navbar, About,Education, Footer, Landing , Contacts, Skills, Experience, Achievement, Projects} from '../../components'
 
 function Main(){
     return(
@@ -10,6 +10,8 @@ function Main(){
             <Education/>
             <Skills/>
             <Experience/>
+            <Projects/>
+            <Achievement/>
             <Contacts/>
             <Footer/>
         </div>
