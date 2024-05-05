@@ -21,7 +21,8 @@
 
 
 # Demo :movie_camera:
-![](https://github.com/aakanshabishnoi/portfolio/assets/82051164/0dc57a83-1322-4791-ae50-49ddd7aa813f)
+![![profile_AS](https://github.com/aakanshabishnoi/portfolio/assets/82051164/294c5dbf-b6c4-4ff5-baae-a4ed40021900)
+](https://github.com/aakanshabishnoi/portfolio/assets/82051164/0dc57a83-1322-4791-ae50-49ddd7aa813f)
 
 [![Watch the video]](https://github.com/aakanshabishnoi/portfolio/assets/82051164/0dc57a83-1322-4791-ae50-49ddd7aa813f)
 <br />
