@@ -22,5 +22,7 @@
 
 # Demo :movie_camera:
 
-[![](https://github.com/aakanshabishnoi/portfolio/assets/82051164/f89e17bf-3a78-40f0-94f0-921744422ef6)](https://github.com/aakanshabishnoi/portfolio/assets/82051164/0dc57a83-1322-4791-ae50-49ddd7aa813f)
+https://github.com/aakanshabishnoi/portfolio/assets/82051164/836599ae-4be1-43b2-bb6b-17bdd590719a
+
+
 <br />
