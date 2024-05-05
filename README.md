@@ -17,6 +17,7 @@
 
 <br /><br />
 
+[![Watch the video]](https://github.com/aakanshabishnoi/portfolio/tree/master/public/demo.mp4)
 <video width="320" height="240" autoplay muted>
   <source src="https://github.com/aakanshabishnoi/portfolio/tree/master/public/demo.mp4" type="video/mp4">
 </video>
