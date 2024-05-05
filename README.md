@@ -20,9 +20,8 @@
 
 
 
+# Demo :movie_camera:
+![](https://github.com/aakanshabishnoi/portfolio/assets/82051164/0dc57a83-1322-4791-ae50-49ddd7aa813f)
 
 [![Watch the video]](https://github.com/aakanshabishnoi/portfolio/assets/82051164/0dc57a83-1322-4791-ae50-49ddd7aa813f)
-<video width="320" height="240" autoplay muted>
-  <source src="https://github.com/aakanshabishnoi/portfolio/assets/82051164/0dc57a83-1322-4791-ae50-49ddd7aa813f" type="video/mp4">
-</video>
 <br />
