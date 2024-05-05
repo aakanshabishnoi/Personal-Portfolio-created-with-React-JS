@@ -18,6 +18,6 @@
 <br /><br />
 
 <video width="320" height="240" autoplay muted>
-  <source src="C:\Users\z004m24d\Desktop\Web development\Aakansha's portfolio\portfolio\public\demo.mp4" type="video/mp4">
+  <source src="https://github.com/aakanshabishnoi/portfolio/tree/master/public/demo.mp4" type="video/mp4">
 </video>
 <br />
