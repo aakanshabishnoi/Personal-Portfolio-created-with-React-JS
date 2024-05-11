@@ -22,7 +22,4 @@
 
 # Demo :movie_camera:
 
-https://github.com/aakanshabishnoi/portfolio/assets/82051164/836599ae-4be1-43b2-bb6b-17bdd590719a
-
-
 <br />
