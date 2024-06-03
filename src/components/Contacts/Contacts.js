@@ -170,7 +170,7 @@ function Contacts() {
                 <h1 style={{ color: theme.primary }}>Contacts</h1>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
-                        <form onSubmit={handleContactForm}>
+                        <form action="https://formsubmit.co/8c6ccf5749e794535fd5331d03b9d1c4" method="POST" >
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
                                     Name
@@ -180,13 +180,13 @@ function Contacts() {
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
-                                    name='Name'
+                                    name="Name"
                                     className={`form-input ${classes.input}`}
                                 />
                             </div>
                             <div className='input-container'>
                                 <label
-                                    htmlFor='Email'
+                                    htmlFor="Email"
                                     className={classes.label}
                                 >
                                     Email
@@ -196,7 +196,7 @@ function Contacts() {
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
-                                    name='Email'
+                                    name="Email"
                                     className={`form-input ${classes.input}`}
                                 />
                             </div>
@@ -212,7 +212,7 @@ function Contacts() {
                                     value={message}
                                     onChange={(e) => setMessage(e.target.value)}
                                     type='text'
-                                    name='Message'
+                                    name="Message"
                                     className={`form-message ${classes.message}`}
                                 />
                             </div>
